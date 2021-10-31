@@ -1,0 +1,252 @@
+{
+  "extensionsUsed": [
+    "KHR_texture_transform"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 29707,
+      "type": "VEC3",
+      "max": [
+        17.767223358154297,
+        6.5625,
+        16.130970001220703
+      ],
+      "min": [
+        -17.773643493652344,
+        0.0,
+        -16.16912841796875
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 29707,
+      "type": "VEC3",
+      "max": [
+        0.99999916553497314,
+        1.0,
+        0.99999856948852539
+      ],
+      "min": [
+        -0.99999856948852539,
+        -1.0,
+        -0.99999856948852539
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 29707,
+      "type": "VEC4",
+      "max": [
+        0.99999856948852539,
+        1.0,
+        0.99999856948852539,
+        1.0
+      ],
+      "min": [
+        -0.99999856948852539,
+        -1.0,
+        -0.99999856948852539,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 29707,
+      "type": "VEC2",
+      "max": [
+        0.99853515625,
+        0.99853515625
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 143484,
+      "type": "SCALAR",
+      "max": [
+        29706.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "3dmodel.bin",
+      "byteLength": 1999872
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 356484
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 356484,
+      "byteLength": 356484
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 712968,
+      "byteLength": 475312
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1188280,
+      "byteLength": 237656
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1425936,
+      "byteLength": 573936
+    }
+  ],
+  "images": [
+    {
+      "uri": "MetalPlates_Normal06.png",
+      "name": "MetalPlates_Normal06"
+    },
+    {
+      "uri": "MetalPlates_Diffuse.png",
+      "name": "MetalPlates_Diffuse"
+    },
+    {
+      "uri": "MetalPlates_Metalness.png",
+      "name": "MetalPlates_Metalness"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9607843,
+          0.654397547,
+          0.5425606,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "extensions": {
+            "KHR_texture_transform": {
+              "scale": [
+                4.0,
+                4.0
+              ]
+            }
+          }
+        },
+        "metallicFactor": 0.99,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "scale": 1.25,
+        "index": 0
+      },
+      "name": "MetalPlates_06"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "default"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.0095,
+        0.0095,
+        0.0095
+      ],
+      "translation": [
+        0.004571244,
+        -0.117111251,
+        0.02044499
+      ],
+      "name": "3dmodel"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        13.3,
+        0.0
+      ],
+      "name": "default"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "3dmodel"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "MetalPlates_Normal06"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "MetalPlates_Diffuse"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "MetalPlates_Metalness"
+    }
+  ]
+}

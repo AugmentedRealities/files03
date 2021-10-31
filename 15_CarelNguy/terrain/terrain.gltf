@@ -1,0 +1,193 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1089,
+      "type": "VEC3",
+      "max": [
+        30.0,
+        3.6795122623443604,
+        30.0
+      ],
+      "min": [
+        -30.0,
+        0.0,
+        -30.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1089,
+      "type": "VEC3",
+      "max": [
+        0.63775837421417236,
+        1.0,
+        0.51767092943191528
+      ],
+      "min": [
+        -0.45421329140663147,
+        0.76862442493438721,
+        -0.51894783973693848
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1089,
+      "type": "VEC4",
+      "max": [
+        0.0022534965537488461,
+        0.52410364151000977,
+        1.0,
+        -1.0
+      ],
+      "min": [
+        -0.002303471090272069,
+        -0.52745378017425537,
+        0.84958374500274658,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1089,
+      "type": "VEC2",
+      "max": [
+        0.99990004301071167,
+        0.99989992380142212
+      ],
+      "min": [
+        9.998000314226374E-05,
+        9.998000314226374E-05
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 6144,
+      "type": "SCALAR",
+      "max": [
+        1088.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "terrain.bin",
+      "byteLength": 76848
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 13068
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13068,
+      "byteLength": 13068
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26136,
+      "byteLength": 17424
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43560,
+      "byteLength": 8712
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 52272,
+      "byteLength": 24576
+    }
+  ],
+  "images": [
+    {
+      "uri": "GroundTexture.png",
+      "name": "GroundTexture"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "GroundMaterial"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "terrain"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.0105,
+        0.0449999981,
+        0.0115
+      ],
+      "translation": [
+        0.004571244,
+        0.0108887572,
+        0.02044499
+      ],
+      "name": "terrain"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "terrain"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "GroundTexture"
+    }
+  ]
+}
