@@ -1,0 +1,199 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 935,
+      "type": "VEC3",
+      "max": [
+        12.5,
+        2.2760543823242188,
+        12.5
+      ],
+      "min": [
+        -12.5,
+        -0.39023268222808838,
+        -12.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 935,
+      "type": "VEC3",
+      "max": [
+        0.40996295213699341,
+        0.99999642372131348,
+        0.37977972626686096
+      ],
+      "min": [
+        -0.5073583722114563,
+        0.86087685823440552,
+        -0.31400173902511597
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 935,
+      "type": "VEC4",
+      "max": [
+        0.064881712198257446,
+        0.39011898636817932,
+        -0.92076444625854492,
+        -1.0
+      ],
+      "min": [
+        -0.063956506550312042,
+        -0.31406113505363464,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 935,
+      "type": "VEC2",
+      "max": [
+        0.63048863410949707,
+        0.90649062395095825
+      ],
+      "min": [
+        0.40933743119239807,
+        0.55603015422821045
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 935,
+      "type": "VEC2",
+      "max": [
+        0.99629586935043335,
+        0.992182731628418
+      ],
+      "min": [
+        0.00390625,
+        0.00390625
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 1536,
+      "type": "SCALAR",
+      "max": [
+        934.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Terrain 3.bin",
+      "byteLength": 58504
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11220
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11220,
+      "byteLength": 11220
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22440,
+      "byteLength": 14960
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 37400,
+      "byteLength": 7480
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 44880,
+      "byteLength": 7480
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 52360,
+      "byteLength": 6144
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.120372042,
+          0.2735849,
+          0.09962621,
+          1.0
+        ],
+        "metallicFactor": 0.074000000953674316,
+        "roughnessFactor": 0.67800000309944153
+      },
+      "name": "Color Pallet"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Terrain 3"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.02,
+        0.05,
+        0.02
+      ],
+      "translation": [
+        -0.00670000026,
+        0.0190000013,
+        0.00522000063
+      ],
+      "name": "Terrain 3"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Terrain 3"
+    }
+  ]
+}
